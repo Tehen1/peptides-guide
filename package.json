@@ -1,0 +1,18 @@
+{
+  "name": "peptides-guide",
+  "private": true,
+  "packageManager": "pnpm@9.7.1",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "scrape": "pnpm --filter @peptides-guide/scrapers run start"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.3",
+    "typescript": "^5.6.2"
+  }
+}
